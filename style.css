@@ -9,22 +9,23 @@ body {
     color:hsl(0, 0%, 40%);
     background-color: hsl(185, 75%, 39%);
     background-image:url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-size: 500px, 500px;
-    background-position: -290px -250px, 160px 275px;
+    background-size: 100vh, 100vh;
+    background-position: -110vw -50vh, 40vw 55vh;
     background-repeat: no-repeat;
 }
-/* background desktop */
-@media (min-width: 1020px) {
-   body {
-    background-size: 800px, 800px;
-    background-position: -90px -350px, 820px 325px;
-    }
-/* end background desktop */  
-} 
+    /* background medium + large devices */
+    @media (min-width: 650px) {
+        body {
+        background-size: 70vw, 70vw;
+        background-position: -20vw -45vh, 48vw 55vh;
+        }
+    /* end background medium + large devices */ 
+    } 
+
 .card {
     width: 321px;
     height: 370px;
-    margin-top: 133px;
+    margin-top: 25vh;
     background: white;
     border-radius: 20px;
 }
@@ -51,9 +52,10 @@ img {
 
 }
 hr {
-    height: 1px;
+    height: 0;
     margin: 0;
-    color: hsl(0, 0%, 70%);
+    border: 0;
+    border-top: 2px solid lightgrey;
 }
 .container-rates {
     display: flex;
