@@ -85,7 +85,7 @@ span , .city {
     color:hsl(0, 0%, 59%);
 }
 .city {
-    margin: 0 auto 0px auto;/* changed margin all 0 only top smth */
+    /* deleted margin; not necessary */
     font-size: small;
 }
 .container-stats span {/* renamed from c-rates to c-stats */
