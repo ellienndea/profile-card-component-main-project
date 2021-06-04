@@ -1,9 +1,12 @@
+*{ /* add simple old css-reset */
+    margin: 0;
+    padding: 0;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center; /* added align-items:center */
     min-height: 100vh;
-    margin: 0;
     padding: 10vh 10vw; /* added little padding */
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;/* don't wanna use google fonts. sry. */
@@ -31,6 +34,7 @@ body {
      /* deleted margin-top: 25vh */
     background: white;
     border-radius: 20px;
+    padding-bottom: 0.5rem; /* added padding bottom */
     box-shadow: 20px 20px 150px grey; /* added box-shadow */
 }
 .card-bg{
@@ -47,9 +51,11 @@ body {
     
 }
 .card-main p {
+    margin-top: 0.5rem; /* add margin-top */
     align-self: center;
 }
-img {display:block;
+img {
+    display:block;
      margin: -50px auto 0 auto;  /* changed margin left + right from 110px to auto; did not work
      but works with img set to display: block */
     border: 5px solid white;
@@ -58,7 +64,7 @@ img {display:block;
 }
 hr {
     height: 0;
-    margin: 0;
+    margin: 30px 0 0 0; /* from all 0 to top 30 */
     border: 0;
     border-top: 2px solid lightgrey;
 }
@@ -68,14 +74,14 @@ hr {
     align-content: space-around;
 }
 .container-rates > div{
-    margin:  10px 20px 25px 20px;
+    margin:  10px auto 0 auto; /* changed margin all 0 only top smth */
 }
 span , .city {
     font-weight: normal;
     color:hsl(0, 0%, 59%);
 }
 .city {
-    margin: 0 10px 30px 10px;
+    margin: 0 auto 0px auto;/* changed margin all 0 only top smth */
     font-size: small;
 }
 .container-rates span {
