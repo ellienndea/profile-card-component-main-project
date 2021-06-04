@@ -68,13 +68,16 @@ hr {
     border: 0;
     border-top: 2px solid lightgrey;
 }
-.container-rates {
+ul { 
     display: flex;
     justify-content: center;
-    align-content: space-around;
+    list-style-type: none;
 }
-.container-rates > div{
-    margin:  10px auto 0 auto; /* changed margin all 0 only top smth */
+li {
+    padding: 1rem 1.5rem;
+}
+li > span{
+    display: block;
 }
 span , .city {
     font-weight: normal;
@@ -84,7 +87,7 @@ span , .city {
     margin: 0 auto 0px auto;/* changed margin all 0 only top smth */
     font-size: small;
 }
-.container-rates span {
+.container-stats span {/* renamed from c-rates to c-stats */
     font-size: x-small;
 }
 .attribution {
