@@ -1,8 +1,10 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center; /* added align-items:center */
+    min-height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 10vh 10vw; /* added little padding */
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;/* don't wanna use google fonts. sry. */
     font-weight: bold;
@@ -24,8 +26,7 @@ body {
 
 .card {
     width: 321px;
-    height: 370px;
-    margin-top: 25vh;
+    height: 370px; /* deleted margin-top: 25vh */
     background: white;
     border-radius: 20px;
 }
