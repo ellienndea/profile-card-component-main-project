@@ -75,6 +75,7 @@ ul {
 }
 li {
     padding: 1rem 1.5rem;
+    text-align: center;
 }
 li > span{
     display: block;
