@@ -25,8 +25,10 @@ body {
     } 
 
 .card {
-    width: 321px;
-    height: 370px; /* deleted margin-top: 25vh */
+    width: 100%; /* width 100% + max-width whatever makes better responsiveness */
+    max-width: 321px;
+    /* deleted height: 370px; not needed*/
+     /* deleted margin-top: 25vh */
     background: white;
     border-radius: 20px;
     box-shadow: 20px 20px 150px grey; /* added box-shadow */
