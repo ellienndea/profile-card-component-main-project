@@ -29,6 +29,7 @@ body {
     height: 370px; /* deleted margin-top: 25vh */
     background: white;
     border-radius: 20px;
+    box-shadow: 20px 20px 150px grey; /* added box-shadow */
 }
 .card-bg{
     width: 100%;
